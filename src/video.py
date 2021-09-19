@@ -1,7 +1,7 @@
 import cv2
 
 # VideoCapture オブジェクトを取得します
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(2)
 
 while(True):
     ret, frame = capture.read()
